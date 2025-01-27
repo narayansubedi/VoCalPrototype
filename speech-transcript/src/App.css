@@ -1,0 +1,92 @@
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: #f0f2f5;
+  margin: 0;
+}
+
+.app {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+h1 {
+  color: #2d3436;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.controls {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.transcript-box {
+  min-height: 200px;
+  width: 100%;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  text-align: left;
+  white-space: pre-wrap;
+  background: #f8f9fa;
+  color: #2d3436;
+  line-height: 1.5;
+  overflow-y: auto;
+}
+
+.playback-section {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.playback-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.play-button {
+  background: #2196F3 !important;
+  padding: 12px 24px !important;
+  font-size: 1.1rem !important;
+}
+
+.progress-bar {
+  color: #666;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
